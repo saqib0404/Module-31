@@ -11,5 +11,6 @@ for (let number of array){
 }
 console.log(sum);
 
+// REduce Method:
 const summation = array.reduce( (previous, current) => previous + current , 0);
 console.log(summation);
